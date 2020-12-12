@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>documente</title>
+</head>
+<body>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        System.defaultJSExtensions = true;
+        System.import('dist/app.js').catch(function(err){
+            console.error(err);
+        });
+    </script>
+</body>
+</html>
