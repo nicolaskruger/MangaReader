@@ -1,0 +1,35 @@
+:root{
+    --HimgW : 40px;
+    --Hpad : 5vw;
+    --bgH : rgb(46, 46, 46);
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px var(--Hpad);
+    background-color: var(--bgH);
+    align-items: center;
+}
+.Header__h1{
+    font-family: 'Langar', cursive;
+}
+.Header__img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.Header__box{
+    width: var(--HimgW);
+    height: var(--HimgW);
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 1200px) {
+    :root{
+        --Hpad: 20vw;
+    }
+}

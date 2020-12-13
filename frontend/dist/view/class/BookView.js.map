@@ -1,0 +1,1 @@
+{"version":3,"file":"BookView.js","sourceRoot":"","sources":["../../../src/view/class/BookView.ts"],"names":[],"mappings":";;AACA,kCAA+B;AAE/B,MAAa,QAAS,SAAQ,WAAI;IACpB,QAAQ,CAAC,MAAc;QAC7B,OAAO,MAAM,CAAC,GAAG,CAAC,CAAC,CAAA,EAAE,CAAA;;4EAE+C,CAAC,CAAC,EAAE;;oCAE5C,CAAC,CAAC,IAAI;WAC/B,CAAC,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;IAClB,CAAC;CAEJ;AAVD,4BAUC"}

@@ -5,7 +5,7 @@ import imgType from '../helper/imgType';
 
 class book{
     select(){
-        const sql = 'select * from book';
+        const sql = 'select * from book order by name';
 
         return query(sql);
     }

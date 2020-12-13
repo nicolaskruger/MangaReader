@@ -1,0 +1,72 @@
+:root{
+    --bookG: 5;
+    --bookGw: 210px;
+    --bookP: 10px;
+    --searchLoop: 20px;
+    --searchRad: 5px;
+}
+
+.Search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+.Search__img{
+    width: var(--searchLoop);
+    height: 23px;
+    background-color: whitesmoke;
+}
+.Books{
+    display: grid;
+    grid-template-columns: repeat(var(--bookG),1fr);
+    gap: 10px;
+    padding:  10px var(--bookP);
+}
+.Book{
+    gap: 10px;
+    cursor: pointer;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Book__box{
+    width: auto;
+    height: var(--bookGw);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.Book__img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+}
+@media only screen and (min-width: 1200px) {
+    :root{
+        --bookP: 20vw;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    :root{
+        --bookG: 4;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    :root{
+        --bookG: 3;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    :root{
+        --bookG: 2;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    :root{
+        --bookG: 1;
+    }
+  }

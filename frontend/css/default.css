@@ -1,0 +1,17 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    --bcScreen: rgb(37, 37, 37)
+    
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}
+button,input{
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    color: whitesmoke;
+}
+html{
+    background-color: black;
+}

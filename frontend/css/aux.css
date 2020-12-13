@@ -1,0 +1,7 @@
+.image-cropper{
+    width: var(--diW);
+    height: var(--diW);
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
