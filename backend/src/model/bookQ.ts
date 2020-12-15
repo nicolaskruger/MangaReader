@@ -10,6 +10,12 @@ class bookQ{
     selectImg(id:number){
         return repo.selectImg(id);
     }
+    selectById(id:number){
+        return repo.selectById(id);
+    }
+    selectByName(name:string){
+        return repo.selectByName(name);
+    }
 
 }
 

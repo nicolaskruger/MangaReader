@@ -10,7 +10,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 10px;
+    margin: 10px var(--bookP) 10px 10px;
 }
 .Search__img{
     width: var(--searchLoop);

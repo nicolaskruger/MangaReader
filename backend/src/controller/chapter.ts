@@ -21,5 +21,14 @@ routes.get("/chapter/:id",(req,res)=>{
             res.status(400).json(err);
         })
 })
+routes.get("/chapterId/:id",(req,res)=>{
+    chapter.selectById(parseInt(req.params.id))
+        .then((s:any)=>{
+            res.status(200).json(s[0]);
+        })
+        .catch(err=>{
+            res.status(400).json(err);
+        })
+})
 
 export default routes;

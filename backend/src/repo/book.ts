@@ -18,6 +18,16 @@ class book{
             }
         })
     }
+    selectById(id:number){
+        const sql = `select * from book where id = ${id}`;
+
+        return query(sql);
+    }
+    selectByName(name:string){
+        const sql = `select * from book where name like '%${name}%' order by name`;
+
+        return query(sql);
+    }
 }
 
 export default new book();

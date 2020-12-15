@@ -1,0 +1,1 @@
+{"version":3,"file":"ChapterView.js","sourceRoot":"","sources":["../../../src/view/class/ChapterView.ts"],"names":[],"mappings":";;AACA,kCAA+B;AAE/B,MAAa,WAAY,SAAQ,WAAI;IACvB,QAAQ,CAAC,MAAiB;QAChC,OAAO,MAAM,CAAC,GAAG,CAAC,CAAC,CAAA,EAAE,CAAA,8CAA8C,CAAC,CAAC,MAAM,KAAK,CAAC,CAAC,IAAI;SACrF,CAAC,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;IAChB,CAAC;CAEJ;AAND,kCAMC"}

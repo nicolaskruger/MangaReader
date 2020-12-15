@@ -17,7 +17,7 @@ class page{
         const sql = `select b.id as p1, c.number as p2 , p.number as p3 from book as b inner join 
         chapter as c on b.id = c.idBook
         inner join page as p on
-        c.id = p.idChap where p.number = ${id};`
+        c.id = p.idChap where p.id = ${id};`
 
         return query(sql);
     }

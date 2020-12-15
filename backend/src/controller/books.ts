@@ -21,4 +21,22 @@ routes.get("/bookImg/:id",(req,res)=>{
             res.status(400).send(err);
         })
 })
+routes.get("/book/:id",(req,res)=>{
+    book.selectById(parseInt(req.params.id))
+        .then((s:any)=>{
+            res.status(200).json(s[0])
+        })
+        .catch(err=>{
+            res.status(400).json(err)
+        })
+})
+routes.get("/bookName/:name",(req,res)=>{
+    book.selectByName(req.params.name)
+        .then(s=>{
+            res.status(200).json(s);
+        })
+        .catch(err=>{
+            res.status(400).json(err);
+        })
+})
 export default routes;

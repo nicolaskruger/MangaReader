@@ -7,6 +7,9 @@ class chapterQ{
     select(){
         return repo.select();
     }
+    selectById(id:number){
+        return repo.selectById(id);
+    }
     selectByBook(idBook:number){
         return repo.selectByBook(idBook);
     }
