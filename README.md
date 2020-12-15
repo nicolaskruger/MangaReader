@@ -1,7 +1,7 @@
 # :open_book: MangaReader
 
 ## :pushpin: Table of Contents
- * [Desciption](#book-Description)
+ * [Description](#book-Description)
  * [Technology](#hammer_and_wrench-Technology)
  * [Task](#scroll-Task)
  * [Install](#gear-Install)
