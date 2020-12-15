@@ -15,9 +15,9 @@
  * [mysql](https://www.mysql.com/)
  * [Express Framework](http://expressjs.com/en/)
 ## :scroll: Task
-- [ ] database with tree tables, books, chapter and page  
-- [ ] v1: book's view show all books, you can filter a book by name and if you click on it, opens v2 of the especific book
-- [ ] v2: screen's view that show all chapteres of especific book, if you click on the chapter you can go to the first page of especific chapter. 
+- [X] database with tree tables, books, chapter and page  
+- [X] v1: book's view show all books, you can filter a book by name and if you click on it, opens v2 of the especific book
+- [X] v2: screen's view that show all chapteres of especific book, if you click on the chapter you can go to the first page of especific chapter. 
 - [ ] v3: page's view that show a especific page of especific chapter
 ## :bookmark_tabs: Require
 * [mysql](https://www.mysql.com/)
